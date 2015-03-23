@@ -1,6 +1,6 @@
 #Installation Guide - Command Prompt
 ***
-This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!
+This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event! If you have any trouble, please do not hesitate to [ask for help](http://mentors.hackwestern.com).
 ## Change Directory
 To open the command prompt, press the windows button and search either "cmd" or "command prompt". Select "cmd.exe", "Command Prompt" or anything to that effect and a black window will pop up. This is command prompt.
 
