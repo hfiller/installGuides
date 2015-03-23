@@ -31,6 +31,21 @@ Then you're ready to start! Create yourself a node file (.js) and start building
 ##Installing Mongo
 The short version here is "don't", this is what [mongo-lab](https://mongolab.co)/cloud services are there for.
 
+To get set-up with mongo lab, go to the website and create your account.
+
+
+Once you're login in your will want to click on the "Create New" button.
+Once you are re-directed, under that "Plan" tab select "Single-Node" and the "Sandbox" radio button (this makes the database free).
+Name the database and select "Create new MongoDB Deployment".
+Select the database, you'll be redirected. Select the "Users" and create a user. Do NOT select the "Make Read-only" checkbox.
+Now to access your database with a URI, do something similar to this: (you MUST copy the specific URI from the top of the mongolab page)
+
+	mongodb://userNameGoesHere:passwordGoesHere@ds031541.mongolab.com:31541/nameOfDatebase
+
+
+For how to use mongo, see the link under Installing Node - Windows.
+
+
 ##Installing Express
 ```
 npm install express
@@ -38,7 +53,7 @@ npm install express
 Yes really.
 
 ##Installing Angular
-```html
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-```
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
 Put this into your header tag (alongside jQuery if you want, they play nice!)
