@@ -2,7 +2,7 @@
 ***
 This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!
 ##Cloud Services
-There are basically two cloud services that are being offered freely for the weekend to programmers: they are [Digital Ocean](#do) and [Microsoft Azure](#az). Both offer free credit to anyone participating in the hackathon, so feel free to make use of them.
+There are basically two cloud services that are being offered freely for the weekend to programmers: they are [Digital Ocean](#do) and [Microsoft Azure](#az). Both offer free credit to anyone participating in the hackathon, so feel free to make use of them. Alternatively, you can use heroku, which is always free, but I would recommend the previous 2 options.
 ####Which One's Better?
 Both are great services, so their merits will come down to your application. If you are new to servers, and are looking for a quick way to spin up a ready made server, then Digital Ocean is for you. Digital Ocean has pre-installed frameworks and gives you an IP to access your server. However, if you want more options in terms of processors and distributions, or just don't have a credit card, Azure is great for high-performance, specific-purpose servers. Finally, if you really are having trouble deciding; why not both?
 ###<a name="do"></a>Digital Ocean
@@ -46,3 +46,26 @@ Your computer will then ask you to trust the ECDSA key fingerprint. This is fine
 
 ####Windows
 Download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) or use the vm agent provided by Azure, but PuTTY is pretty great. Using either software, connect to your server (shell over TCP using port 22). Your computer will then ask you to trust the ECDSA key fingerprint. This is fine. Once that is done, you should be logged in automatically (if not, you may have forgotten to run " ssh-add ~/.ssh/id_rsa" or the ssh on the server is failing). To give the rest of the team access, add their public ssh keys to the .ssh/authorized_keys file.
+
+##Heroku
+Install [heroku toolbelt](https://toolbelt.heroku.com/) for your respective OS.
+Make an account [here](https://signup.heroku.com/www-home-top). Your free account can have up to 5 projects.
+#### Im going to assume that your already have a git repository set up.
+Go to your terminal or command prompot and use this command to login to your account:
+
+	heroku login
+
+Create a remote branch for the given application:
+	
+	heroku create
+
+Add the files from your repository to the remote repository:
+	
+	heroku push origin master
+
+Provides the address of the hosted service and opens it in your browser:
+	
+	heroku open
+
+Heroku can be annoying to work with sometimes. I've had success in the past by simply reinitializing my git repository, but this isn't a guarantee.
+

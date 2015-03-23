@@ -5,7 +5,8 @@ This is an installation guide for Hack Western Students. These installations wer
 ## Windows
 This [link](http://www.computerhope.com/issues/ch000549.htm) is great.
 
-To view your current path variable use this command:
+To view your current path variable use this command
+	
 	echo %PATH%
 
 ## Linux/Mac
