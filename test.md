@@ -1,6 +1,6 @@
 #Installation Guide - Cloud Services
 ***
-This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!
+This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event! If you have any trouble, please do not hesitate to [ask for help](http://mentors.hackwestern.com).
 ##Cloud Services
 There are basically two cloud services that are being offered freely for the weekend to programmers: they are [Digital Ocean](#do) and [Microsoft Azure](#az). Both offer free credit to anyone participating in the hackathon, so feel free to make use of them. Alternatively, you can use heroku, which is always free, but I would recommend the previous 2 options.
 ####Which One's Better?

@@ -1,6 +1,6 @@
 #Installation Guide - Java and Android Studios
 ***
-This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!
+This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!If you have any trouble, please do not hesitate to [ask for help](http://mentors.hackwestern.com).
 ##Getting the Java Development Kit - Linux/Mac
 First [download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) the JDK and extract it. If using Linux follow [this](http://www.wikihow.com/Install-Oracle-Java-JDK-on-Ubuntu-Linux) tutorial, if using mac use [this](http://www.wikihow.com/Install-the-JDK-%28Java-Development-Kit%29-on-Mac-OS-X) tutorial.
 
@@ -17,7 +17,7 @@ First [download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do
 
 ##Adding Android SDK Packages
 Android SDK comes with a lovely tool called "Android SDK Manager". If you ever need to download files related to android, this is your one stop location where you can download everything. This tool can be opened via android studio.
-[This](http://developer.android.com/sdk/installing/adding-packages.html) describes how to use it. 
+[This](http://developer.android.com/sdk/installing/adding-packages.html) describes how to use it.
 #### Makes sure you download the necessary files from the SDK Manager.
 
 If you are on windows, finding the "SDK Manager.exe" can be a pain sometimes. Search your computer for "SDK Manager.exe" or "adb.exe". Alternatively, you can check "C:\Program Files\Android\Android Studio\bin" or "C:\Users\YourNameHere\AppData\Local\Android\sdk". Unfortunately, "AppData" is hidden by default. Go [here](http://windows.microsoft.com/en-ca/windows/show-hidden-files#show-hidden-files=windows-7) to make folders visible.
