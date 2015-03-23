@@ -57,3 +57,8 @@ Yes really.
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
 Put this into your header tag (alongside jQuery if you want, they play nice!)
+
+
+##Installing Angular
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
