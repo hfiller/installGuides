@@ -1,6 +1,6 @@
 #Installation Guide - MySQL
 ***
-This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!
+This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event! If you have any trouble, please do not hesitate to [ask for help](http://mentors.hackwestern.com).
 ##Installing MySQL
 Well, you don't ever really install MySQL (well, you shouldn't), but you're going to use it, and there's some configuring to be done!
 ##Installing MySQLWorkbench

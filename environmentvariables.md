@@ -1,6 +1,6 @@
 #Installation Guide - Environment Variables
 ***
-This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event!
+This is an installation guide for Hack Western Students. These installations were tested the weekend before and are therefore very likely to be stable at the time of hacking. We hope you enjoy the event! If you have any trouble, please do not hesitate to [ask for help](http://mentors.hackwestern.com).
 
 ## Windows
 This [link](http://www.computerhope.com/issues/ch000549.htm) is great.
