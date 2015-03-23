@@ -8,11 +8,11 @@ Perhaps the most important step here is actually installing the library. Luckily
 >open terminal
 
 ```
-sudo apt-get install nodejs
+curl -sL https://deb.nodesource.com/setup | sudo bash -
 ```
 and
 ```
-sudo apt-get install npm
+sudo apt-get install nodejs
 ```
 
 That's it! Now let's get into the thick of it. The first thing you want to do is create a package.json file, click [here](http://browsenpm.org/package.json) to see how those work. Create this file in your folder, then run this to create your project.
